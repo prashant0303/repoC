@@ -4,7 +4,7 @@ import csv
 import argparse
 
 parser = argparse.ArgumentParser(description="Mention input log file and output csv file")
-parser.add_argument('-i', help="input log file", default="text.log"
+parser.add_argument('-i', help="input log file", default="text.log")
 parser.add_argument('-o', help="output csv file", default="output.csv")
 args = vars(parser.parse_args())
 
